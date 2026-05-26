@@ -1,0 +1,26 @@
+Insights in the Project Report
+
+#Data Cleaning
+Removed Colums which have empty or null values.
+
+Removed duplicates, replaced the value of TravelRarely to Travel_Rarely.
+
+Added Conditional Column named AttritionCount ; If Attrition values 'Yes', then output = 1 else 0.
+
+#Data Insights
+Added a new measure; AttritionRate = SUM(HR_Analytics[Attrition Count]) / SUM(HR_Analytics[EmployeeCount]) Similarly based on the formula as Total Attrition/Total Employees.
+
+Made few KPI's as Count of Employees = 1470; ∑ AttritionCount = 237; AttritionRate = 16.1%; Avg Age = 37; Avg Salary = 6.5K & Avg Yrs of Experience = 7.0.
+
+Made few charts such as Donut Chart, Stacked Column Chart, Matrix, Stacked Bar Chart, Area Chart, Treemap etc to show the overall data insights based on the report.
+
+#Project Learnings
+Identified key factors to reduce Attrition.
+
+Improved hiring process.
+
+Improved Employee experience.
+
+Made workforce more productive.
+
+Gained employee trust
